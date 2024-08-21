@@ -4,6 +4,11 @@ Near Realtime RAG solution leveraging Bedrock KB + (MemoryDB or OpenSearch Serve
 
 This repo will evaluate 2 AWS DB: 1/ MemoryDB and 2/ OpenSearch Serverless.
 
+## Best Practice
+
+1. [Prompt Caching](https://www.anthropic.com/news/prompt-caching)
+2. [Semantic Cache](https://aws.amazon.com/blogs/database/improve-speed-and-reduce-cost-for-generative-ai-workloads-with-a-persistent-semantic-cache-in-amazon-memorydb/)
+
 ## Getting Started
 
 1. Create OpenSearch Serverless with Vector: https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html
